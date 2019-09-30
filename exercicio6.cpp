@@ -1,8 +1,7 @@
 /*
-Func�o: calcular o valor de uma presta��o em atraso/*
-Func�o: calcular o pre�o de um terreno
+Funcão: calcular o valor de uma prestação em atraso
 Autor: Victor Nathan
-Data de cria��o: 26/09/2019
+Data de criação: 26/09/2019
 */
 
 #include <stdio.h>
@@ -20,5 +19,5 @@ int main(){
 	printf("Informe o  tempo em dias: ");
 	scanf("%i", &atraso);
 	prestacao = valor + (valor * (taxa / 100) * atraso);
-	printf("O valor da presta��o �: %f", prestacao);
+	printf("O valor da prestação é: %f", prestacao);
 }
