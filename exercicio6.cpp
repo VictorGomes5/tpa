@@ -1,6 +1,5 @@
 /*
-Func�o: calcular o valor de uma presta��o em atraso/*
-Func�o: calcular o pre�o de um terreno
+Func�o: calcular o valor de uma presta��o em atraso
 Autor: Victor Nathan
 Data de cria��o: 26/09/2019
 */
