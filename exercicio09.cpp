@@ -1,7 +1,7 @@
 /*
-Funcão: verificar se um número é maior que 100
+FuncÃ£o: verificar se um nÃºmero Ã© maior que 100
 Autor: Victor Nathan
-Data de criação: 28/09/2019
+Data de criaÃ§Ã£o: 28/09/2019
 */
 
 #include <stdio.h>
@@ -11,10 +11,10 @@ Data de criação: 28/09/2019
 int main(){
 	setlocale(LC_ALL, "");
 	int n = 0;
-	printf("Informe um número: ");
+	printf("Informe um nÃºmero: ");
 	scanf("%i", &n);
 	if(n > 100){
 		n = n + 150;
 	}
-	printf("O número final é %i", n);
+	printf("O nÃºmero final Ã© %i", n);
 }
