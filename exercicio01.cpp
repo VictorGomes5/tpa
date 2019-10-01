@@ -1,7 +1,7 @@
 /*
 Funcão: Calcular à área de um retângulo
 Autor: Victor Nathan
-Data de criação: 26/09/2019
+Data de Criação: 26/09/2019
 */
 
 #include <stdio.h>
