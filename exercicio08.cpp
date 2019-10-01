@@ -1,7 +1,7 @@
 /*
-Função: Calcula a média de 4 notas
+FunÃ§Ã£o: Calcula a mÃ©dia de 4 notas
 Autor: Victor Nathan
-data de criação: 30/09/19
+data de criaÃ§Ã£o: 30/09/19
 */
 
 #include <stdio.h>
@@ -20,5 +20,5 @@ int main(){
 	printf("informe a quarta nota: ");
 	scanf("%f", &n4);
 	media = (n1 + n2 + n3 + n4) / 4;
-	printf("A média é igual á: %f", media);
+	printf("A mÃ©dia Ã© igual Ã¡: %f", media);
 }
