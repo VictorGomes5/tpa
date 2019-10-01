@@ -1,7 +1,7 @@
 /*
 Funcão: calcular o quadrado da soma de três números
 Autor: Victor Nathan
-Data de criação: 26/09/2019
+Data de Criação: 26/09/2019
 */
 
 #include <stdio.h>
