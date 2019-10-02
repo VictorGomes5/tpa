@@ -1,7 +1,7 @@
 /*
-Função: 
+FunÃ§Ã£o: Verificar se um aluno foi aprovado
 Autor: Victor Nathan
-Data de Criação: 30/09/2019
+Data de CriaÃ§Ã£o: 30/09/2019
 */
 
 #include <stdio.h>
