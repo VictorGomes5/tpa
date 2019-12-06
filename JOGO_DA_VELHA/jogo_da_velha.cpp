@@ -1,9 +1,9 @@
 /*
-Função: Jogo da velha
+FunÃ§Ã£o: Jogo da velha
 Autor: Marcos Fajoli
 Autor: Victor Nathan
-Data de Criação: 23/10/2019
-Data de Modificação: 10/11/2019
+Data de CriaÃ§Ã£o: 23/10/2019
+Data de ModificaÃ§Ã£o: 10/11/2019
 */
 
 #include <stdio.h>
@@ -16,7 +16,7 @@ bool vencedor = false;
 
 void trocarMarcadorJ1() {
 	troca = 0;
-	printf("Deseja trocar o marcador? (Digite \"1\" para sim e \"0\" para não): \n");
+	printf("Deseja trocar o marcador? (Digite \"1\" para sim e \"0\" para nÃ£o): \n");
 	scanf("%i", &troca);
 	if(troca == 1){
 		printf("O marcador foi trocado! \n\n");
@@ -33,7 +33,7 @@ void trocarMarcadorJ1() {
 
 void trocarMarcadorJ2() {
 	troca = 0;
-	printf("Deseja trocar o marcador? (Digite \"1\" para sim e \"0\" para não): \n");
+	printf("Deseja trocar o marcador? (Digite \"1\" para sim e \"0\" para nÃ£o): \n");
 	scanf("%i", &troca);
 	if(troca == 1){
 		printf("O marcador foi trocado! \n\n");
@@ -88,16 +88,16 @@ void pedirNome() {
 	gets(nome1);
 	printf("Insira o nome do jogador 2: ");
 	gets(nome2);
-	printf("Qual jogador será o primeiro? (\"1\" ou \"2\"): ");
+	printf("Qual jogador serÃ¡ o primeiro? (\"1\" ou \"2\"): ");
 	scanf("%i", &pri);
 	while(pri != 1 and pri != 2){
-		printf("Informe um jogador válido (\"1\" ou \"2\"): ");
+		printf("Informe um jogador vÃ¡lido (\"1\" ou \"2\"): ");
 		scanf("%i", &pri);
 	}
 	printf("Jogador 1 informe o marcador (\"X\" ou \"O\"): ");
 	scanf("%s", &m1);
 	while(m1 != 'X' and m1 != 'O' and m1 != 'x' and m1 != 'o'){
-		printf("Jogador 1 informe um marcador válido (\"X\" ou \"O\"): ");
+		printf("Jogador 1 informe um marcador vÃ¡lido (\"X\" ou \"O\"): ");
 		scanf("%s", &m1);
 	}
 	
@@ -141,28 +141,28 @@ void jogasso() {
 		printf("Informe a linha: ");
 		scanf("%i", &lin);
 		while(lin > 3 or lin < 1){
-			printf("Informe uma linha válida: ");
+			printf("Informe uma linha vÃ¡lida: ");
 			scanf("%i", &lin);
 		}
 		printf("Informe a coluna: ");
 		scanf("%i", &col);
 		while(col > 3 or col < 1){
-			printf("Informe uma coluna válida: ");
+			printf("Informe uma coluna vÃ¡lida: ");
 			scanf("%i", &col);
 		}
 		
 		while(jogo[lin-1][col-1] != ' '){
-			printf("Posição já utilizada! \n");
+			printf("PosiÃ§Ã£o jÃ¡ utilizada! \n");
 			printf("Informe a linha: ");
 			scanf("%i", &lin);
 			while(lin > 3 or lin < 1){
-				printf("Informe uma linha válida: ");
+				printf("Informe uma linha vÃ¡lida: ");
 				scanf("%i", &lin);
 			}
 			printf("Informe a coluna jogador: ");
 			scanf("%i", &col);
 			while(col > 3 or col < 1){
-				printf("Informe uma coluna válida: ");
+				printf("Informe uma coluna vÃ¡lida: ");
 				scanf("%i", &col);
 			}
 			if(jogo[lin-1][col-1] == ' '){
@@ -190,7 +190,7 @@ void jogasso() {
 		}else if(rodada == 8){
 			printf("Deu Velha! \n");
 			velha += 1 ;
-			printf("O total de empates é %i \n\n", velha);
+			printf("O total de empates Ã© %i \n\n", velha);
 		}
 	}
 }
@@ -241,3 +241,4 @@ int main () {
 		scanf("%i", &jogao);
 	}
 }
+
